@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>D3Times</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-md-9 col-md-offset-0">
+				<h1>D3Times</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12  col-md-9 col-md-offset-0">
+				<div class="iframeContainer">
+					
+					<div class="embed-responsive embed-responsive-16by9 mb-4">
+					<iframe id="s-chart" class="embed-responsive-item" src="d3.html"></iframe>
+					</div>
+			</div>
+	<br>
+    </div>
+		<div class="row">
+			<div class="col-xs-12  col-md-12 col-md-offset-0">
+				<div class="article">
+					<h4>Age (Median) </h4>
+					<ul>
+						<li>Since healthcare is generally tied to a job, age may impact having healthcare, however it doesn't appear to be strongly correlated.</li>
+						<li>Age doesn't appear to have a correlation to obesity percentage.</li>
+						<li>Age doesn't appear to have a correlation to smoking percentage.</li>
+					</ul>
+					<h4>Household Income (Median)</h4>
+					<ul>
+						<li>Since healthcare is generally tied to a job, income may impact having healthcare, however it doesn't appear to be strongly correlated.</li>
+						<li>Income appears to be correlated to obesity.  Higher income looks to correlate with lower obesity percentage.</li>
+						<li>Income appears to be correlated to smoking.  Higher income looks to correlate with lower smoking percentage.</li>
+					</ul>
+					<h4>In Poverty (%)</h4>
+					<ul>
+						<li>Since healthcare is tied to a job, poverty percentage appears to be strongly correlated.</li>
+						<li>As with income, poverty percentage appears to be correlated to obesity.  Higher poverty percentage shows higher obesity percentage.</li>
+						<li>As with income, poverty percentage appears to be correlated to smoking.  Higher poverty percentage shows higher smoking percentage.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- Footer-->
+	<div id="footer" class="col-xs-12  col-md-9 col-md-offset-0">
+		<p>© Kyle Younghans 2019</p>
+	</div>
+
+</body>
+</html>
